@@ -1,0 +1,34 @@
+clone remote git repo to local
+#git clone  https://github.com/cysun/cs5220-springmvc
+
+update local master with remote master branch
+#checkout master
+#git pull
+
+
+show branch
+#git branch
+* dev
+  master
+
+change branch to master
+#git checkout master
+
+create new branch
+#git branch new-branch-name
+
+add file to staging
+#git add filename
+
+remove file from staging
+#git rm filename
+
+commit change
+#git commit -m ‘fixed bug’
+
+check remote url
+#git remote -v
+
+
+push to remote branch
+#git push remote-url local-branch:remote-branch
